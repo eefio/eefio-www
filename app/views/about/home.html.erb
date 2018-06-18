@@ -1,3 +1,8 @@
+<header>
+  <h1><%= t :brand %></h1>
+  <h2><%= t :tagline %></h2>
+</header>
+
 <nav>
   <% t('home.nav').each do |_, name| %>
     <%= link_to name, anchor: name.downcase %>

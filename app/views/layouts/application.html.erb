@@ -10,13 +10,10 @@
 
   <body <%= body_id %>>
     <nav>
-      <%= link_to t('nav.docs'), [:docs] %>
+      <% t('nav').each do |path, name| %>
+        <%= link_to name, path, class: path %>
+      <% end %>
     </nav>
-
-    <header>
-      <h1><%= t :brand %></h1>
-      <h2><%= t :tagline %></h2>
-    </header>
 
     <%= yield %>
   </body>

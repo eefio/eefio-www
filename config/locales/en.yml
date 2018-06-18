@@ -3,6 +3,7 @@ en:
   tagline: A RESTful API for the Ethereum Blockchain
 
   nav:
+    root: Ethio
     docs: Docs
 
   home:
