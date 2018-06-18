@@ -9,7 +9,8 @@
   <% end %>
 </nav>
 
-<% %w[what why how when who].each do |section| %>
+<%# how when who %>
+<% %w[what why].each do |section| %>
   <div id='<%= section %>'>
     <h2><%= t "home.#{section}.heading" %></h2>
 
