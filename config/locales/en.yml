@@ -70,3 +70,25 @@ en:
 
         But if you’re looking for a RESTful experience that is like most other web APIs,
         then Ethio will soon be for the thing for you. Stay tuned…
+
+      how:  How
+      when: When
+      who:  Who
+
+    how:
+      heading: How do you use Ethio?
+
+      description:
+        TODO
+
+    when:
+      heading: When can you use Ethio?
+
+      description:
+        TODO
+
+    who:
+      heading: Who makes Ethio?
+
+      description:
+        TODO
