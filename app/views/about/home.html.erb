@@ -9,8 +9,10 @@
   <% end %>
 </nav>
 
-<div id='what'>
-  <h2><%= t 'home.what.heading' %></h2>
+<% %w[what why].each do |section| %>
+  <div id='<%= section %>'>
+    <h2><%= t "home.#{section}.heading" %></h2>
 
-  <%= render_markdown t('home.what.description') %>
-</div>
+    <%= render_markdown t("home.#{section}.description") %>
+  </div>
+<% end %>

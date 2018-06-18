@@ -18,9 +18,10 @@ en:
       heading: What is Ethio?
 
       description:
-        Ethio is a RESTful API with the primary goal of being a simple and humane way to get information from the Ethereum blockchain.
+        Ethio is a RESTful API with the primary goal of being a simple and humane way to get
+        information from the Ethereum blockchain.
 
-        The _RESTful_ part is important because it makes Ethio like most APIs that web developers are familiar with.
+        The _RESTful_ part is important because it makes Ethio like most APIs that web developers are used to.
 
         In that way, Ethio is similar to
         [Stripe](https://stripe.com/docs/api){:target='_blank'},
@@ -30,3 +31,42 @@ en:
         and
         [Twitter](https://developer.twitter.com){:target='_blank'}
         APIs.
+
+    why:
+      heading: Why Ethio?
+
+      description:
+        Ethio is purpose built to be easy for web developers.
+        Working with the Ethereum blockchain should as simple as any web API.
+        If you’ve ever used a RESTful API on the web (Twitter, Facebook, Intagram, etc),
+        using Ethio will feel familiar.
+
+
+        Ethio was born out of a frustration with the existing tools not being RESTful or opensource.
+        (Or neither!) Ethio comes from the idea that REST and opensource are both important.
+
+
+        The most common way that most people work with the Ethereum blockchain is some combination of
+
+        [Etherscan](https://etherscan.io){:target='_blank'},
+        [Web3](https://github.com/ethereum/web3.js){:target='_blank'},
+        and
+        [Geth](https://geth.ethereum.org){:target='_blank'}
+        (or [Parity](https://www.parity.io)).
+
+        None of which are RESTful, and all of which use a format called
+        [JSON-RPC](https://en.wikipedia.org/wiki/JSON-RPC){:target='_blank'}
+        (unlike most web APIs).
+
+
+        [Infura](https://infura.io){:target='_blank'} has a REST-like API, but is not opensource.
+        Infura also suffers from the same functionality limitations as a raw Geth node,
+        namely search / filtering / associations are somewhere between very inefficient to completely
+        impossible when operating directly on the blockchain.
+
+
+        If you are happy using Web3 / Infura / Etherscan, great! You should keep using them.
+        RPC is a different mental model than REST, and some people really like that.
+
+        But if you’re looking for a RESTful experience that is like most other web APIs,
+        then Ethio will soon be for the thing for you. Stay tuned…
