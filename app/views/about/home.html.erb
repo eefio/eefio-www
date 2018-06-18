@@ -1,6 +1,6 @@
 <header>
   <h1><%= t :brand %></h1>
-  <h2><%= t :tagline %></h2>
+  <p><%= t :tagline %></p>
 </header>
 
 <nav>
@@ -8,3 +8,9 @@
     <%= link_to name, anchor: name.downcase %>
   <% end %>
 </nav>
+
+<div id='what'>
+  <h2><%= t 'home.what.heading' %></h2>
+
+  <%= render_markdown t('home.what.description') %>
+</div>

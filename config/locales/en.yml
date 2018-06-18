@@ -13,3 +13,20 @@ en:
       how:  How
       when: When
       who:  Who
+
+    what:
+      heading: What is Ethio?
+
+      description:
+        Ethio is a RESTful API with the primary goal of being a simple and humane way to get information from the Ethereum blockchain.
+
+        The _RESTful_ part is important because it makes Ethio like most APIs that web developers are familiar with.
+
+        In that way, Ethio is similar to
+        [Stripe](https://stripe.com/docs/api){:target='_blank'},
+        [Twilio](https://www.twilio.com/docs/usage/api){:target='_blank'},
+        [GitHub](https://developer.github.com){:target='_blank'},
+        [Instagram](https://www.instagram.com/developer){:target='_blank'},
+        and
+        [Twitter](https://developer.twitter.com){:target='_blank'}
+        APIs.
