@@ -1,0 +1,5 @@
+<nav>
+  <% t('home.nav').each do |_, name| %>
+    <%= link_to name, anchor: name.downcase %>
+  <% end %>
+</nav>
