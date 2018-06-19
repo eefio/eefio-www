@@ -1,0 +1,7 @@
+<div id='how'>
+  <h2><%= t "home.how.heading" %></h2>
+
+  <%= render_markdown t("home.how.description") %>
+
+  <pre class='code'><%= File.read(Rails.root.join 'config', 'locales', 'blocks_0.json').truncate(667) %></pre>
+</div>
