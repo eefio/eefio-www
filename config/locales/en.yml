@@ -90,7 +90,26 @@ en:
       heading: When can you use Ethio?
 
       description:
-        TODO
+        Very soon!
+
+
+        The **`ALPHA`** release will be out any day now (today’s date `2018-06-18`).
+        The **`ALPHA`** release of Ethio will be very limited.
+        It will start small and then grow iteratively.
+        The first bit of functionality is being able to **`GET`** any single block.
+        By block number, by block address (hash), or the latest block.
+
+
+        The API will remain in **`ALPHA`** until all of the 5 major resources are in place.
+        Blocks, Transactions, Wallets, Contracts, and Tokens.
+        Then it will move into **`BETA`**.
+        At which point, the focus will be bugs, performance, etc.
+        During **`ALPHA`** and **`BETA`**, the semantics of the API (namely, keys in JSON responses)
+        will very likely shift and get changed based on usage and feedback.
+        Changes will be discussed and announced on
+        [GitHub](https://github.com/ethiodotapp/ethio-api){:target='_blank'},
+        [Twitter](https://twitter.com/ethiodotapp){:target='_blank'},
+        and on the blog.
 
     who:
       heading: Who makes Ethio?
