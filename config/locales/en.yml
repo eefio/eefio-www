@@ -6,6 +6,11 @@ en:
     root: Ethio
     docs: Docs
 
+  footer:
+    email:
+      name: Email
+      subject: 'About Ethio: '
+
   home:
     nav:
       what: What

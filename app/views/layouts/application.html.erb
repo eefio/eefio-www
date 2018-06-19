@@ -18,10 +18,11 @@
     <%= yield %>
 
     <footer>
-      <%= link_to 'GitHub',   'https://github.com/ethiodotapp',    target: '_blank' %>
-      <%= link_to 'Twitter',  'https://twitter.com/ethiodotapp',   target: '_blank' %>
-      <%= link_to 'Intagram', 'https://instagram.com/ethiodotapp', target: '_blank' %>
-      <%= mail_to 'veganstraightedge@gmail.com', 'Email', subject: "About #{t(:brand)}: " %>
+      <% URL::SOCIAL_LINKS.each do |name, url| %>
+        <%= link_to name, url, class: name.downcase, target: '_blank' %>
+      <% end %>
+
+      <%= mail_to URL::CONTACT_US_EMAIL, t('footer.email.name'), subject: t('footer.email.subject') %>
     </footer>
   </body>
 </html>
