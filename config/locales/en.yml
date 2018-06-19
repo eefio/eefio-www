@@ -31,9 +31,10 @@ en:
 
         In that way, Ethio is similar to
         [Stripe](https://stripe.com/docs/api){:target='_blank'},
-        [Twilio](https://www.twilio.com/docs/usage/api){:target='_blank'},
+        [Twilio](https://twilio.com/docs/usage/api){:target='_blank'},
         [GitHub](https://developer.github.com){:target='_blank'},
-        [Instagram](https://www.instagram.com/developer){:target='_blank'},
+        [Instagram](https://instagram.com/developer){:target='_blank'},
+        [DNSimple](https://developer.dnsimple.com/v2){:target='_blank'},
         and
         [Twitter](https://developer.twitter.com){:target='_blank'}
         APIs.
@@ -48,8 +49,8 @@ en:
         using Ethio will feel familiar.
 
 
-        Ethio was born out of a frustration with the existing tools not being RESTful or opensource.
-        (Or neither!) Ethio comes from the idea that REST and opensource are both important.
+        Ethio was born out of a frustration with the existing tools not being RESTful or open source.
+        (Or neither!) Ethio comes from the idea that REST and open source are both important.
 
 
         The most common way that most people work with the Ethereum blockchain is some combination of
@@ -58,14 +59,14 @@ en:
         [Web3](https://github.com/ethereum/web3.js){:target='_blank'},
         and
         [Geth](https://geth.ethereum.org){:target='_blank'}
-        (or [Parity](https://www.parity.io)).
+        (or [Parity](https://parity.io)).
 
         None of which are RESTful, and all of which use a format called
         [JSON-RPC](https://en.wikipedia.org/wiki/JSON-RPC){:target='_blank'}
         (unlike most web APIs).
 
 
-        [Infura](https://infura.io){:target='_blank'} has a REST-like API, but is not opensource.
+        [Infura](https://infura.io){:target='_blank'} has a REST-like API, but is not open source.
         Infura also suffers from the same functionality limitations as a raw Geth node,
         namely search / filtering / associations are somewhere between very inefficient to completely
         impossible when operating directly on the blockchain.
@@ -128,4 +129,30 @@ en:
       heading: Who makes Ethio?
 
       description:
-        TODO
+        Shane Becker is the creator of Ethio.
+
+        Most recently, he was the Lead Web Developer at [Quantstamp](https://quantstamp.com){:target='_blank'}.
+
+        In recent years, he organized [Farmhouse Conf](http://farmhouse.co/conf){:target='_blank'},
+        in Hollywood, California, lived and traveled in
+        [80 square feet of Volkswagen Vanagon](https://instagram.com/explore/tags/littlemisadventuretime){:target='_blank'},
+        and [defeated cancer](https://instagram.com/explore/tags/shaneschemodays){:target='_blank'}.
+
+
+        He has been designing and making websites for over two decades,
+        and has been developing with Ruby and Rails for over a decade.
+        Previously, he built products or worked with communites for
+        [Happily](https://happily.io),
+        [AT&T Interactive](https://yellowpages.com),
+        [Engine Yard](https://engineyard.com),
+        and
+        [VMware]().
+
+        He believes in a free and open internet, open standards, and open source software.
+
+        He can be found on
+        [Twitter](https://twitter.com/veganstraightedge){:target='_blank'},
+        [Instagram](https://Instagram.com/veganstraightedge){:target='_blank'},
+        [GitHub](https://github.com/veganstraightedge){:target='_blank'},
+        and
+        his [personal website](https://veganstraightedge.com){:target='_blank'}.
