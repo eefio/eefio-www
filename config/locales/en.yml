@@ -26,7 +26,8 @@ en:
         Ethio is a RESTful API with the primary goal of being a simple and humane way to get
         information from the Ethereum blockchain.
 
-        The _RESTful_ part is important because it makes Ethio like most APIs that web developers are used to.
+        The _RESTful_ part is important because it makes Ethio like most APIs that
+        web developers are used to.
 
         In that way, Ethio is similar to
         [Stripe](https://stripe.com/docs/api){:target='_blank'},
@@ -76,15 +77,27 @@ en:
         But if you’re looking for a RESTful experience that is like most other web APIs,
         then Ethio will soon be for the thing for you. Stay tuned…
 
-      how:  How
-      when: When
-      who:  Who
-
     how:
       heading: How do you use Ethio?
 
       description:
-        TODO
+        The primary design goal for Ethio is be a _humane_ API for the Ethereum blockchain.
+        After all, it is _human_ developers that use APIs.
+        Ethio aims to be friendly, simple, obvious, guessable, literate, and documented. Phew.
+
+
+        Ethio places heavy importance on being a REST (and hypermedia!) API,
+        so using it is all about URLs!
+        Because Ethio is primarily a read-only API, all requests are made via `HTTP GET`.
+
+
+        The response is always `JSON`, even if you don’t set your `Accept:` header.
+        Requests work with and without `.json` appended to the end of the path.
+        For example, `/blocks/latest` and `/blocks/latest.json` both return a `JSON` response.
+
+
+        Here’s an example request for the genesis block (the first block on the Ethereum blockchain). `curl https://api.ethio.app/blocks/0` and its response. For more details on API usage and responses, jump over to [the API documentation](/docs).
+
 
     when:
       heading: When can you use Ethio?

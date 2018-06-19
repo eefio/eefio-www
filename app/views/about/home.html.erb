@@ -9,11 +9,16 @@
   <% end %>
 </nav>
 
-<%# how  who %>
-<% %w[what why when].each do |section| %>
+<%#  who %>
+<% %w[what why how when].each do |section| %>
   <div id='<%= section %>'>
     <h2><%= t "home.#{section}.heading" %></h2>
 
     <%= render_markdown t("home.#{section}.description") %>
+
+    <%# Special case to show a JSON code block for the How section %>
+    <% if section == 'how' %>
+      <pre class='code'><%= File.read(Rails.root.join 'config', 'locales', 'blocks_0.json').truncate(667) %></pre>
+    <% end %>
   </div>
 <% end %>

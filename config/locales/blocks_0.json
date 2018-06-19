@@ -1,0 +1,54 @@
+{
+  "links": {
+    "self": "https://api.ethio.app/blocks/0",
+    "first": "https://api.ethio.app/blocks/0",
+    "next": "https://api.ethio.app/blocks/1",
+    "last": "https://api.ethio.app/blocks/5"
+  },
+  "data": {
+    "block": {
+      "address": "0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3",
+      "block_number": 0,
+      "block_number_in_hex": "0x0",
+      "difficulty": 17179869184,
+      "difficulty_in_hex": "0x400000000",
+      "extra_data": "0x11bbe8db4e347b4e8c937c1c8370e4b5ed33adb3db69cbdb7a38e1e50b1b82fa",
+      "gas_limit": 5000,
+      "gas_limit_in_hex": "0x1388",
+      "gas_used": 0,
+      "gas_used_in_hex": "0x0",
+      "logs_bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "miner_address": "0x0000000000000000000000000000000000000000",
+      "mix_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "nonce": 66,
+      "nonce_in_hex": "0x0000000000000042",
+      "parent_block_address": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "published_at": "1970-01-01T00:00:00Z",
+      "published_at_in_seconds_since_epoch_in_hex": "0x0",
+      "published_at_in_seconds_since_epoch": 0,
+      "receipts_root_address": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+      "sha3_uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+      "size_in_bytes": 540,
+      "size_in_bytes_in_hex": "0x21c",
+      "state_root_address": "0xd7f8974fb5ac78d9ac099b9ad5018bedc2ce0a72dad1827a1709da30580f0544",
+      "total_difficulty": 17179869184,
+      "total_difficulty_in_hex": "0x400000000",
+      "transactions_root_address": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+      "uncles": "[]"
+    }
+  },
+  "meta": {
+    "version": "ALPHA",
+    "license": "CC0 / http://creativecommons.org/publicdomain/zero/1.0",
+    "url": "https://api.ethio.app",
+    "contributors": [
+      "# Human Name | # GitHub username  | # Personal Website (optional)",
+      "Shane Becker | @veganstraightedge | https://veganstraightedge.com"
+    ],
+    "documentation": "https://ethio.app/docs/blocks/one"
+  },
+  "jsonapi": {
+    "version": "0",
+    "description": "Ethio is not JSON API compliant, but it is heavily inspired by the JSON API spec."
+  }
+}
