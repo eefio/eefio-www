@@ -1,6 +1,10 @@
 en:
   brand: Ethio
   tagline: A RESTful API for the Ethereum Blockchain
+  status:
+    🚨 WARNING! This **ALPHA** software.
+    You are encouraged to explore it,
+    but you are discouraged from depending on it in production yet. 🚨
 
   nav:
     root: Ethio
