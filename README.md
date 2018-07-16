@@ -2,8 +2,8 @@
 
 **A documentation site for the Eefio API, powered by Rails**
 
-- Production: [eefio.app](https://eefio.app)
-- Staging: [staging.eefio.app](https://staging.eefio.app)
+- Production: [eefio.com](https://eefio.com)
+- Staging: [staging.eefio.com](https://staging.eefio.com)
 
 <!-- [![Build Status](https://travis-ci.org/eefio/eefio-www.svg?branch=master)](https://travis-ci.org/eefio/eefio-www) -->
 <!-- [![Maintainability](https://api.codeclimate.com/v1/badges/22ef4ea6475be7057b87/maintainability)](https://codeclimate.com/github/eefio/eefio-www/maintainability) -->
@@ -200,6 +200,6 @@ To work on an issue or story card, follow these steps (roughly speaking):
 
 - When the pull request is merged into `master` and the feature branch should be deleted remotely and locally.
 
-- All commits to `master` are auto-deployed to the `staging` server: https://staging.eefio.app.
+- All commits to `master` are auto-deployed to the `staging` server: https://staging.eefio.com.
 
-- Changes to the `staging` server have to be manually approved by a human to be promoted to `production` from the Heroku website. https://eefio.app
+- Changes to the `staging` server have to be manually approved by a human to be promoted to `production` from the Heroku website. https://eefio.com

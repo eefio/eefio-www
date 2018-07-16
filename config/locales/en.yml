@@ -101,7 +101,7 @@ en:
         For example, `/blocks/latest` and `/blocks/latest.json` both return a `JSON` response.
 
 
-        Here’s an example request for the genesis block (the first block on the Ethereum blockchain). `curl https://api.eefio.app/blocks/0` and its response. For more details on API usage and responses, jump over to [the API documentation](/docs).
+        Here’s an example request for the genesis block (the first block on the Ethereum blockchain). `curl https://api.eefio.com/blocks/0` and its response. For more details on API usage and responses, jump over to [the API documentation](/docs).
 
 
     when:

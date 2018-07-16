@@ -1,9 +1,9 @@
 {
   "links": {
-    "self": "https://api.eefio.app/blocks/0",
-    "first": "https://api.eefio.app/blocks/0",
-    "next": "https://api.eefio.app/blocks/1",
-    "last": "https://api.eefio.app/blocks/5"
+    "self": "https://api.eefio.com/blocks/0",
+    "first": "https://api.eefio.com/blocks/0",
+    "next": "https://api.eefio.com/blocks/1",
+    "last": "https://api.eefio.com/blocks/5"
   },
   "data": {
     "block": {
@@ -40,12 +40,12 @@
   "meta": {
     "version": "ALPHA",
     "license": "CC0 / http://creativecommons.org/publicdomain/zero/1.0",
-    "url": "https://api.eefio.app",
+    "url": "https://api.eefio.com",
     "contributors": [
       "# Human Name | # GitHub username  | # Personal Website (optional)",
       "Shane Becker | @veganstraightedge | https://veganstraightedge.com"
     ],
-    "documentation": "https://eefio.app/docs/blocks/one"
+    "documentation": "https://eefio.com/docs/blocks/one"
   },
   "jsonapi": {
     "version": "0",
