@@ -1,12 +1,12 @@
-# Ethio Website
+# Eefio Website
 
-**A documentation site for the Ethio API, powered by Rails**
+**A documentation site for the Eefio API, powered by Rails**
 
-- Production: [ethio.app](https://ethio.app)
-- Staging: [staging.ethio.app](https://staging.ethio.app)
+- Production: [eefio.app](https://eefio.app)
+- Staging: [staging.eefio.app](https://staging.eefio.app)
 
-<!-- [![Build Status](https://travis-ci.org/sandstormco/ethio-www.svg?branch=master)](https://travis-ci.org/sandstormco/ethio-www) -->
-<!-- [![Maintainability](https://api.codeclimate.com/v1/badges/22ef4ea6475be7057b87/maintainability)](https://codeclimate.com/github/sandstormco/ethio-www/maintainability) -->
+<!-- [![Build Status](https://travis-ci.org/eefio/eefio-www.svg?branch=master)](https://travis-ci.org/eefio/eefio-www) -->
+<!-- [![Maintainability](https://api.codeclimate.com/v1/badges/22ef4ea6475be7057b87/maintainability)](https://codeclimate.com/github/eefio/eefio-www/maintainability) -->
 
 
 ## Development Setup
@@ -16,8 +16,8 @@
 [Strap your computer](https://macos-strap.herokuapp.com), first (macOS only. Windows/Linux… ask a friend?).
 
 ```bash
-git clone https://github.com/sandstormco/ethio-www.git
-cd ethio-www
+git clone https://github.com/eefio/eefio-www.git
+cd eefio-www
 ./script/setup
 ./script/server
 ```
@@ -25,7 +25,7 @@ cd ethio-www
 
 ## Scripts to Rule Them All
 
-Ethio repos use the [Scripts to Rule Them All](http://githubengineering.com/scripts-to-rule-them-all) pattern.
+Eefio repos use the [Scripts to Rule Them All](http://githubengineering.com/scripts-to-rule-them-all) pattern.
 See also: https://github.com/github/scripts-to-rule-them-all
 
 `/script` is a collection of scripts for development on an OS X / macOS computer.
@@ -123,7 +123,7 @@ Setup environment for CI and run tests. This is primarily designed to run on the
 
 ## Deploy to Heroku
 
-If you want to run your own copy of the Ethio Website, you can!
+If you want to run your own copy of the Eefio Website, you can!
 (This requires you having a Heroku account already.)
 Click this button to easily deploy to Heroku.
 
@@ -138,15 +138,15 @@ Click this button to easily deploy to Heroku.
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/sandstormco/ethio-www/blob/master/CONTRIBUTING.md).
+See [CONTRIBUTING.md](https://github.com/eefio/eefio-www/blob/master/CONTRIBUTING.md).
 
-If you find bugs, have feature requests or questions, please [file an issue](https://github.com/sandstormco/ethio-www/issues).
+If you find bugs, have feature requests or questions, please [file an issue](https://github.com/eefio/eefio-www/issues).
 
 
 ## Code of Conduct
 
-Everyone interacting in the Ethio's project's codebases, issue trackers, chat rooms, and mailing lists is expected to follow the
-[Ethio development code of conduct](https://github.com/sandstormco/ethio-www/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Eefio's project's codebases, issue trackers, chat rooms, and mailing lists is expected to follow the
+[Eefio development code of conduct](https://github.com/eefio/eefio-www/blob/master/CODE_OF_CONDUCT.md).
 
 
 ## License
@@ -200,6 +200,6 @@ To work on an issue or story card, follow these steps (roughly speaking):
 
 - When the pull request is merged into `master` and the feature branch should be deleted remotely and locally.
 
-- All commits to `master` are auto-deployed to the `staging` server: https://staging.ethio.app.
+- All commits to `master` are auto-deployed to the `staging` server: https://staging.eefio.app.
 
-- Changes to the `staging` server have to be manually approved by a human to be promoted to `production` from the Heroku website. https://ethio.app
+- Changes to the `staging` server have to be manually approved by a human to be promoted to `production` from the Heroku website. https://eefio.app

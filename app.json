@@ -1,6 +1,6 @@
 {
-  "name": "Ethio Website",
-  "description": "A documentation site for the Ethio API, powered by Rails",
+  "name": "Eefio Website",
+  "description": "A documentation site for the Eefio API, powered by Rails",
   "keywords": [
     "REST",
     "API",
@@ -10,8 +10,8 @@
     "blockchain"
   ],
 
-  "website": "https://ethio.app",
-  "repository": "https://github.com/sandstormco/ethio-www",
+  "website": "https://eefio.app",
+  "repository": "https://github.com/eefio/eefio-www",
   "logo": "",
 
   "success_url": "/",
