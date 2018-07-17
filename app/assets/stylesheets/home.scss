@@ -2,20 +2,48 @@
   // Hide home link on homepage
   nav .root { display: none; }
 
-
   #hero {
-    padding: 6rem 4rem 4rem 4rem;
+    padding: 6rem 2rem 4rem 2rem;
     color: white;
     text-align: center;
+    width:  100vw;
+    height: 100vh;
+    background-size: cover;
 
     h1 {
-      font: {
-        family: 'alright_sansblack', system, sans-serif;
-        size: 10rem;
-      }
+      @include font-black;
+
       display: inline-block;
       line-height: 1em;
       margin: 0;
+
+      letter-spacing: -.02em;
+      font-size: 7rem;
+    }
+
+    p {
+      @include font-light;
+      font-size: 1.1rem;
+    }
+
+    @include media-breakpoint-up(sm) {
+      h1 { font-size: 8rem; }
+      p  { font-size: 1.4rem; }
+    }
+
+    @include media-breakpoint-up(md) {
+      h1 { font-size: 9rem; }
+      p  { font-size: 1.6rem; }
+    }
+
+    @include media-breakpoint-up(lg) {
+      h1 { font-size: 10rem; }
+      p  { font-size: 1.8rem; }
+    }
+
+    @include media-breakpoint-up(xl) {
+      h1 { font-size: 12rem; }
+      p  { font-size:  2rem; }
     }
   }
 }
