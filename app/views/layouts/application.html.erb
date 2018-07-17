@@ -25,12 +25,14 @@
 
     <%= yield %>
 
-    <footer>
-      <% URL::SOCIAL_LINKS.each do |name, url| %>
-        <%= link_to name, url, class: name.downcase, target: '_blank' %>
-      <% end %>
+    <footer role='contentinfo'>
+      <div class='container text-center' id='contact'>
+        <% URL::SOCIAL_LINKS.each do |name, url| %>
+          <%= link_to name, url, class: name.downcase, target: '_blank' %>
+        <% end %>
 
-      <%= mail_to URL::CONTACT_US_EMAIL, t('footer.email.name'), subject: t('footer.email.subject') %>
+        <%= mail_to URL::CONTACT_US_EMAIL, t('footer.email.name'), subject: t('footer.email.subject') %>
+      </div>
     </footer>
   </body>
 </html>
