@@ -13,13 +13,15 @@
   </head>
 
   <body <%= body_id %>>
-    <nav>
-      <% t('nav').each do |path, name| %>
-        <%= link_to name, path, class: path %>
-      <% end %>
-    </nav>
+    <% if false %>
+      <nav>
+        <% t('nav').each do |path, name| %>
+          <%= link_to name, path, class: path %>
+        <% end %>
+      </nav>
 
-    <p><%= render_markdown t :status %></p>
+      <p><%= render_markdown t :status %></p>
+    <% end %>
 
     <%= yield %>
 
