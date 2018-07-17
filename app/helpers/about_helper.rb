@@ -1,9 +1,8 @@
 module AboutHelper
   def homepage_hero_background_image
-    image     = %w[05-2 05-3 06-1 07-1 07-2 07-3 08-1 08-2 08-3 13 16].sample + '.jpg'
-    image_url = asset_url "homepage/backgrounds/#{image}"
+    filename = ('01'..'11').to_a.sample + '.jpg'
+    path     = asset_url "homepage/backgrounds/#{filename}"
 
-    "background-image: url(#{image_url});"
-    nil
+    "background-image: url(#{path});"
   end
 end

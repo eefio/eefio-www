@@ -3,9 +3,19 @@
   nav .root { display: none; }
 
 
-  h1 {
-    font: {
-      family: 'alright_sansblack', system, sans-serif;
+  #hero {
+    padding: 6rem 4rem 4rem 4rem;
+    color: white;
+    text-align: center;
+
+    h1 {
+      font: {
+        family: 'alright_sansblack', system, sans-serif;
+        size: 10rem;
+      }
+      display: inline-block;
+      line-height: 1em;
+      margin: 0;
     }
   }
 }
