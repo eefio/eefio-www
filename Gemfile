@@ -1,65 +1,76 @@
 source 'https://rubygems.org'
-git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-
 ruby '2.5.1'
 
-# text utilities
-gem 'kramdown'       # for Markdown processing
-gem 'rubypants'      # for smart quotes
-gem 'sterile'        # for slugs
-gem 'stringex'       # for Markdown header IDs processing
-
-
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+# app server
 gem 'rails', '~> 5.2.0'
-# Use postgresql as the database for Active Record
-gem 'pg', '>= 0.18', '< 2.0'
-# Use Puma as the app server
-gem 'puma', '~> 3.12'
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
-# Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
-# See https://github.com/rails/execjs#readme for more supported runtimes
-# gem 'mini_racer', platforms: :ruby
 
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.5'
-# Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 4.0'
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+# Database
+gem 'pg'
 
-# Use ActiveStorage variant
-# gem 'mini_magick', '~> 4.8'
+# webserver
+gem 'puma'
 
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+# assets
+gem 'autoprefixer-rails'
+gem 'bootstrap'
+gem 'jquery-rails'
+gem 'sass-rails'
+gem 'sitemap_generator' # generates compliant xml sitemap
+gem 'uglifier'
 
-# Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.1.0', require: false
+# text utilities
+gem 'kramdown'  # Markdown processing
+gem 'rubypants' # smart quotes
+gem 'sterile'   # slugs
+gem 'stringex'  # Markdown header IDs processing
 
+# codestyle guide and linting
+gem 'rubocop', require: false
+gem 'rubocop-rspec'
+
+# development and testing
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'byebug', platform: :mri
+  gem 'capybara'
+  gem 'chromedriver-helper'
+  gem 'factory_bot_rails'
+  gem 'launchy'
+  gem 'nokogiri'
+  gem 'overcommit'
+  gem 'rails-controller-testing'
+  gem 'rspec-rails'
+  gem 'selenium-webdriver'
+  gem 'simplecov', require: false
+  gem 'spring-commands-rspec'
 end
 
+# development
 group :development do
-  # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
-  gem 'web-console', '>= 3.3.0'
-  gem 'listen', '>= 3.0.5', '< 3.2'
-  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+  gem 'guard-rspec', require: false
+  gem 'listen', '~> 3.1.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'web-console'
+
+  # memory profiling
+  gem 'memory_profiler'
+
+  # call-stack profiling flamegraphs
+  gem 'fast_stack'
+  gem 'flamegraph'
+  gem 'stackprof'
 end
 
-group :test do
-  # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '>= 2.15', '< 4.0'
-  gem 'selenium-webdriver'
-  # Easy installation and use of chromedriver to run system tests with Chrome
-  gem 'chromedriver-helper'
-end
+# boot time speedup
+gem 'bootsnap', require: false
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+# monitoring
+gem 'bugsnag'
+
+# DDOS protection
+gem 'rack-attack'
+gem 'redis'
+gem 'redis-store'
+
+# windows dev
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
