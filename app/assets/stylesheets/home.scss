@@ -1,2 +1,11 @@
-// Hide home link on homepage
-#home nav .root { display: none; }
+#home {
+  // Hide home link on homepage
+  nav .root { display: none; }
+
+
+  h1 {
+    font: {
+      family: 'alright_sansblack', system, sans-serif;
+    }
+  }
+}
