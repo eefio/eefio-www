@@ -65,7 +65,7 @@ end
 gem 'bootsnap', require: false
 
 # monitoring
-gem 'bugsnag'
+# gem 'bugsnag'
 
 # DDOS protection
 gem 'rack-attack'
