@@ -14,7 +14,7 @@ gem 'puma'
 gem 'autoprefixer-rails'
 gem 'bootstrap'
 gem 'jquery-rails'
-gem 'sass-rails'
+gem 'sassc-rails'
 gem 'sitemap_generator' # generates compliant xml sitemap
 gem 'uglifier'
 
