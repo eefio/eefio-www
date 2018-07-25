@@ -5,14 +5,77 @@
   </div>
 </header>
 
-<% if false %>
-  <nav>
-    <% t('home.nav').each do |_, name| %>
-      <%= link_to name, anchor: name.downcase %>
-    <% end %>
-  </nav>
+<div class='row mx-1'>
+  <div class='container my-5'>
+    <h2 class='mb-4'>What is Ethio?</h2>
 
-  <% %w[what why how when who].each do |section| %>
-    <%= render "about/home/#{section}" %>
+    <div class='row'>
+
+      <div class='col-12 col-md-5 col-lg-4 mb-4'>
+        <div class="card text-white bg-dark">
+          <div class="card-body">
+
+            <h3>Is it REST?</h3>
+            <p>
+              <b>Yes!</b> Eefio is just like nearly every web API:
+              Twilio, Stripe, GitHub, Heroku, Twitter, Instagram…
+            </p>
+
+            <p>
+              If you’ve ever used a REST API before on the web,
+              you’ll feel right at home with Eefio.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-7 col-lg-8">
+        <div class="card bg-light">
+          <div class="card-body">
+
+            <div class='row'>
+              <div class='col-12 col-lg-6'>
+                <h3>Is it GraphQL?</h3>
+                <p>
+                  No. GraphQL is new and exciting, but it’s not Eefio’s focus.
+                  If GraphQL is what you’re looking for, check out
+                  <a href='https://thegraph.com'>The Graph</a>.
+                </p>
+              </div>
+
+              <div class='col-12 col-lg-6'>
+                <h3>Is it JSON-RPC?</h3>
+                <p>
+                  No. Eefio is fundamentally different from JSON-RPC.
+                  If you prefer JSON-RPC, you’re probably best off sticking with:
+                  <a href='https://github.com/ethereum/web3.js/'>Web3</a>,
+                  <a href='https://infura.io'>Infura</a>,
+                  and
+                  <a href='https://etherscan.io/apis'>Etherscan</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<% if false %>
+<nav>
+  <% t('home.nav').each do |_, name| %>
+  <%= link_to name, anchor: name.downcase %>
   <% end %>
+</nav>
+
+<% %w[what why how when who].each do |section| %>
+<%= render "about/home/#{section}" %>
+<% end %>
 <% end %>

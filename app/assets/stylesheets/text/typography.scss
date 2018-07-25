@@ -6,8 +6,15 @@
 
 @mixin font-bold {
   font: {
-    family: alright_sansbold, system, sans-serif;
+    family: alright_sansmedium, system, sans-serif;
     weight: 600;
+  }
+}
+
+@mixin font-bolder {
+  font: {
+    family: alright_sansbold, system, sans-serif;
+    weight: 900;
   }
 }
 
@@ -27,4 +34,8 @@
 
 * {
   @include font-regular;
+}
+
+b, strong {
+  @include font-bold;
 }
