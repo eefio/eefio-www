@@ -16,6 +16,33 @@ en:
       subject: 'About Eefio: '
 
   home:
+    advisors:
+      heather-rivers:
+        name: Heather Rivers
+        title: CTO
+        company: Mode Analytics, Inc
+        url: https://mode.com/team/?name=heather_rivers
+        company_url: https://mode.com/team/?name=heather_rivers
+      evan-phoenix:
+        name: Evan Phoenix
+        title: Senior Software Engineer
+        company: HashiCorp
+        url: https://twitter.com/evanphx
+        company_url: https://hashicorp.com/
+      elise-worthy:
+        name: Elise Worthy
+        title: CEO
+        company: Kids on 45th
+        url: https://twitter.com/eliseworthy
+        company_url: https://hashicorp.com/
+      bookis-worthy:
+        name: Bookis Worthy
+        title: CTO
+        company: Kids on 45th
+        url: https://twitter.com/bookis
+        company_url: https://hashicorp.com/
+
+
     nav:
       what: What
       why:  Why

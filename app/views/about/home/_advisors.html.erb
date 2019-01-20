@@ -1,0 +1,36 @@
+<div class='container my-5'>
+  <div id='advisors' class='row mt-5'>
+
+    <div class='col-12'>
+      <h2 class='border-bottom mb-3'>
+        Advisors
+
+        <%= link_to_heading_anchor :advisors %>
+      </h2>
+    </div>
+
+    <% if false %>
+    <div class='col-12 col-lg-6'>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+    <% end %>
+  </div>
+
+  <div class='row'>
+    <% t('home.advisors').each do |slug, data| %>
+      <div id='<%= slug %>' class='col-12 col-md-6 col-lg-3'>
+        <%= image_tag "advisors/#{slug}.jpg", class: 'rounded' %>
+
+        <h3 class='mt-3'><%= data[:name] %></h3>
+
+        <p>
+          <%= link_to data[:title], data[:url] %>,
+
+          <%= link_to data[:company], data[:company_url] %>
+        </p>
+      </div>
+    <% end %>
+  </div>
+</div>
