@@ -65,18 +65,3 @@
     </div>
   </div>
 </div>
-
-  <%= render 'about/home/advisors' %>
-</div>
-
-<% if false %>
-  <nav>
-    <% t('home.nav').each do |_, name| %>
-      <%= link_to name, anchor: name.downcase %>
-    <% end %>
-  </nav>
-
-  <% %w[what why how when who].each do |section| %>
-    <%= render "about/home/#{section}" %>
-  <% end %>
-<% end %>
